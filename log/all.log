@@ -1,0 +1,719 @@
+2020-01-14 22:00:12,450 [Thread-1:139960332322560]                       [django.server:124] [INFO]- "GET / HTTP/1.1" 200 16559
+2020-01-14 22:00:12,596 [Thread-3:139960323929856]                       [django.server:124] [INFO]- "GET /static/admin/css/fonts.css HTTP/1.1" 200 423
+2020-01-14 22:00:12,767 [Thread-4:139960323929856]                       [django.server:124] [INFO]- "GET /static/admin/fonts/Roboto-Bold-webfont.woff HTTP/1.1" 200 82564
+2020-01-14 22:00:12,771 [Thread-6:139960313349888]                       [django.server:124] [INFO]- "GET /static/admin/fonts/Roboto-Light-webfont.woff HTTP/1.1" 200 81348
+2020-01-14 22:00:12,787 [Thread-7:139960099272448]                       [django.request:93] [WARNING]- Not Found: /favicon.ico
+2020-01-14 22:00:12,790 [Thread-7:139960099272448]                       [django.server:124] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 1972
+2020-01-14 22:00:12,799 [Thread-5:139960332322560]                       [django.server:124] [INFO]- "GET /static/admin/fonts/Roboto-Regular-webfont.woff HTTP/1.1" 200 80304
+2020-01-14 22:15:00,311 [Thread-1:140610573084416]                       [django.server:124] [INFO]- "GET /users HTTP/1.1" 301 0
+2020-01-14 22:15:00,326 [Thread-3:140610564691712]                       [django.server:124] [INFO]- "GET /users/ HTTP/1.1" 200 40
+2020-01-14 23:44:21,242 [Thread-1:140425252030208]                       [django.request:93] [WARNING]- Not Found: /users/hello
+2020-01-14 23:44:21,244 [Thread-1:140425252030208]                       [django.server:124] [WARNING]- "GET /users/hello HTTP/1.1" 404 2145
+2020-01-14 23:44:39,575 [Thread-1:139881514792704]                       [django.server:124] [INFO]- "GET /users/hello HTTP/1.1" 200 40
+2020-01-15 00:31:36,540 [Thread-4:140659668485888]                       [django.request:93] [WARNING]- Not Found: /api-token-auth/
+2020-01-15 00:31:36,544 [Thread-4:140659668485888]                       [django.server:124] [WARNING]- "OPTIONS /api-token-auth/ HTTP/1.1" 404 2094
+2020-01-15 00:31:38,750 [Thread-5:140659668485888]                       [django.request:93] [WARNING]- Not Found: /api-token-auth/
+2020-01-15 00:31:38,751 [Thread-5:140659668485888]                       [django.server:124] [WARNING]- "OPTIONS /api-token-auth/ HTTP/1.1" 404 2094
+2020-01-15 00:31:45,653 [Thread-6:140659668485888]                       [django.request:93] [WARNING]- Not Found: /api-token-auth/
+2020-01-15 00:31:45,654 [Thread-6:140659668485888]                       [django.server:124] [WARNING]- "OPTIONS /api-token-auth/ HTTP/1.1" 404 2094
+2020-01-15 00:32:50,613 [Thread-8:140659679065856]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:32:51,901 [Thread-9:140659668485888]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:33:55,070 [Thread-1:140272214128384]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:34:04,595 [Thread-3:140272214128384]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:34:49,304 [Thread-1:140204572854016]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:37:54,656 [Thread-3:140204572854016]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:39:29,524 [Thread-1:139943868786432]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:40:45,565 [Thread-1:139724660668160]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:40:55,830 [Thread-3:139724660668160]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:40:56,154 [Thread-4:139724660668160]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:40:56,411 [Thread-5:139724660668160]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:41:44,217 [Thread-1:140266146715392]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:42:00,151 [Thread-3:140266146715392]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:44:25,982 [Thread-1:140499874203392]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:46:17,144 [Thread-3:140499874203392]                       [django.server:124] [WARNING]- "POST /users/api-token-auth/ HTTP/1.1" 400 0
+2020-01-15 00:47:20,876 [Thread-1:139914094790400]                       [django.server:124] [WARNING]- "POST /users/api-token-auth/ HTTP/1.1" 400 0
+2020-01-15 00:47:42,572 [Thread-1:140114714609408]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:47:50,263 [Thread-3:140114714609408]                       [django.server:124] [WARNING]- "POST /users/api-token-auth/ HTTP/1.1" 400 0
+2020-01-15 00:49:49,289 [Thread-1:140517665994496]                       [django.server:124] [WARNING]- "POST /users/api-token-auth/ HTTP/1.1" 400 0
+2020-01-15 00:53:51,841 [Thread-3:140517665994496]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 00:54:05,737 [Thread-4:140517665994496]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:54:12,975 [Thread-5:140517665994496]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:54:17,760 [Thread-6:140517665994496]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 00:54:54,565 [Thread-1:139948821759744]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 00:55:09,116 [Thread-3:139948821759744]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 14:58:33,074 [Thread-1:140006135953152]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 14:59:42,336 [Thread-3:140006135953152]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 15:01:39,614 [Thread-4:140006135953152]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 15:02:11,133 [Thread-5:140006135953152]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 15:02:13,769 [Thread-6:140006135953152]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 15:03:01,609 [Thread-7:140006135953152]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 15:05:52,417 [Thread-8:140006135953152]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 15:06:15,977 [Thread-9:140006135953152]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 15:07:09,409 [Thread-10:140006135953152]                       [django.request:118] [ERROR]- Internal Server Error: /users/api-token-auth/
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 496, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 411, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2020-01-15 15:07:09,797 [Thread-10:140006135953152]                       [django.server:124] [ERROR]- "GET /users/api-token-auth/ HTTP/1.1" 500 78787
+2020-01-15 15:07:10,337 [Thread-11:140006127560448]                       [django.request:93] [WARNING]- Not Found: /favicon.ico
+2020-01-15 15:07:10,338 [Thread-11:140006127560448]                       [django.server:124] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2080
+2020-01-15 15:07:32,142 [Thread-1:140530512365312]                       [django.request:118] [ERROR]- Internal Server Error: /users/api-token-auth/
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 496, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 411, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2020-01-15 15:07:32,370 [Thread-1:140530512365312]                       [django.server:124] [ERROR]- "GET /users/api-token-auth/ HTTP/1.1" 500 78922
+2020-01-15 15:08:19,821 [Thread-1:139915842987776]                       [django.request:118] [ERROR]- Internal Server Error: /users/api-token-auth/
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 496, in dispatch
+    self.response = self.finalize_response(request, response, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 411, in finalize_response
+    % type(response)
+AssertionError: Expected a `Response`, `HttpResponse` or `HttpStreamingResponse` to be returned from the view, but received a `<class 'NoneType'>`
+2020-01-15 15:08:20,053 [Thread-1:139915842987776]                       [django.server:124] [ERROR]- "GET /users/api-token-auth/ HTTP/1.1" 500 78922
+2020-01-15 15:08:38,890 [Thread-4:139915834595072]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 15:09:20,818 [Thread-1:140065560966912]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 15:10:00,613 [Thread-1:139649103292160]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 169
+2020-01-15 15:16:04,808 [Thread-1:140335345624832]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 0
+2020-01-15 15:16:05,131 [Thread-3:140335345624832]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 15:43:04,278 [Thread-1:140617953715968]                       [django.request:118] [ERROR]- Internal Server Error: /users/api-token-auth
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/middleware/common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 10.43.1.151:8100/users/api-token-auth/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2020-01-15 15:43:04,510 [Thread-1:140617953715968]                       [django.server:124] [ERROR]- "POST /users/api-token-auth HTTP/1.1" 500 65020
+2020-01-15 15:44:16,030 [Thread-1:139741339940608]                       [django.request:118] [ERROR]- Internal Server Error: /users/api-token-auth
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/utils/deprecation.py", line 93, in __call__
+    response = self.process_request(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/middleware/common.py", line 61, in process_request
+    path = self.get_full_path_with_slash(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/middleware/common.py", line 99, in get_full_path_with_slash
+    'url': request.get_host() + new_path,
+RuntimeError: You called this URL via POST, but the URL doesn't end in a slash and you have APPEND_SLASH set. Django can't redirect to the slash URL while maintaining POST data. Change your form to point to 10.43.1.151:8100/users/api-token-auth/ (note the trailing slash), or set APPEND_SLASH=False in your Django settings.
+2020-01-15 15:44:16,250 [Thread-1:139741339940608]                       [django.server:124] [ERROR]- "POST /users/api-token-auth HTTP/1.1" 500 65020
+2020-01-15 15:46:02,089 [Thread-1:140179631359744]                       [django.request:93] [WARNING]- Not Found: /users/api-token-auth
+2020-01-15 15:46:02,091 [Thread-1:140179631359744]                       [django.server:124] [WARNING]- "POST /users/api-token-auth HTTP/1.1" 404 2171
+2020-01-15 15:46:09,550 [Thread-3:140179631359744]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 15:49:33,956 [Thread-4:140179631359744]                       [django.request:93] [WARNING]- Not Found: /users/userinfo
+2020-01-15 15:49:33,958 [Thread-4:140179631359744]                       [django.server:124] [WARNING]- "GET /users/userinfo HTTP/1.1" 404 2152
+2020-01-15 16:21:33,448 [Thread-1:139756068718336]                       [django.request:93] [WARNING]- Not Found: /users/userinfo
+2020-01-15 16:21:33,450 [Thread-1:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo HTTP/1.1" 404 2315
+2020-01-15 16:22:08,526 [Thread-4:139756057876224]                       [django.request:93] [WARNING]- Not Found: /users/userinfo
+2020-01-15 16:22:08,527 [Thread-4:139756057876224]                       [django.server:124] [WARNING]- "GET /users/userinfo HTTP/1.1" 404 2315
+2020-01-15 16:22:31,767 [Thread-5:139756068718336]                       [django.request:93] [WARNING]- Not Found: /users/userinfo
+2020-01-15 16:22:31,768 [Thread-5:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo HTTP/1.1" 404 2315
+2020-01-15 16:22:48,063 [Thread-7:139756057876224]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 5027
+2020-01-15 16:22:48,112 [Thread-9:139756057876224]                       [django.server:124] [INFO]- "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 200 3385
+2020-01-15 16:22:48,118 [Thread-10:139756049221376]                       [django.server:124] [INFO]- "GET /static/rest_framework/css/prettify.css HTTP/1.1" 200 817
+2020-01-15 16:22:48,119 [Thread-11:139756040828672]                       [django.server:124] [INFO]- "GET /static/rest_framework/css/default.css HTTP/1.1" 200 1131
+2020-01-15 16:22:48,125 [Thread-13:139755685672704]                       [django.server:124] [INFO]- "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 200 3597
+2020-01-15 16:22:48,134 [Thread-8:139756068718336]                       [django.server:124] [INFO]- "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 200 121200
+2020-01-15 16:22:48,145 [Thread-14:139756068718336]                       [django.server:124] [INFO]- "GET /static/rest_framework/js/csrf.js HTTP/1.1" 200 1735
+2020-01-15 16:22:48,157 [Thread-12:139756032435968]                       [django.server:124] [INFO]- "GET /static/rest_framework/js/jquery-1.12.4.min.js HTTP/1.1" 200 97163
+2020-01-15 16:22:48,159 [Thread-16:139756068718336]                       [django.server:124] [INFO]- "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 200 13632
+2020-01-15 16:22:48,167 [Thread-15:139755685672704]                       [django.server:124] [INFO]- "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 200 37045
+2020-01-15 16:22:48,168 [Thread-17:139756068718336]                       [django.server:124] [INFO]- "GET /static/rest_framework/js/default.js HTTP/1.1" 200 1262
+2020-01-15 16:22:48,204 [Thread-18:139756068718336]                       [django.server:124] [INFO]- "GET /static/rest_framework/img/grid.png HTTP/1.1" 200 1458
+2020-01-15 16:23:02,568 [Thread-19:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:23:20,432 [Thread-20:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:28:00,966 [Thread-21:139756068718336]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 16:29:28,289 [Thread-22:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:32:28,055 [Thread-23:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:35:39,759 [Thread-24:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:36:32,971 [Thread-25:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:41:08,581 [Thread-26:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:42:07,497 [Thread-27:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:44:01,061 [Thread-28:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:46:29,479 [Thread-29:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:47:13,407 [Thread-30:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:47:24,666 [Thread-31:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 16:47:38,478 [Thread-32:139756068718336]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 17:10:43,191 [Thread-1:140508326795008]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 17:11:17,604 [Thread-3:140508326795008]                       [django.server:124] [WARNING]- "GET /users/userinfo/ HTTP/1.1" 401 58
+2020-01-15 17:11:57,834 [Thread-4:140508326795008]                       [django.server:124] [WARNING]- "GET /users/userinfo/?page=1 HTTP/1.1" 401 58
+2020-01-15 17:12:04,317 [Thread-5:140508326795008]                       [django.server:124] [WARNING]- "GET /users/userinfo/all?page=1 HTTP/1.1" 401 58
+2020-01-15 17:12:34,676 [Thread-6:140508326795008]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 0
+2020-01-15 17:12:34,976 [Thread-7:140508326795008]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 17:13:25,602 [Thread-1:140127552718592]                       [django.server:124] [WARNING]- "GET /users/userinfo/all?page=1 HTTP/1.1" 401 58
+2020-01-15 17:14:04,051 [Thread-1:140351764256512]                       [django.server:124] [WARNING]- "GET /users/userinfo?page=1 HTTP/1.1" 401 58
+2020-01-15 17:15:06,230 [Thread-3:140351764256512]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 0
+2020-01-15 17:15:06,542 [Thread-4:140351764256512]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 17:16:45,265 [Thread-1:140040640001792]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 17:18:01,203 [Thread-3:140040640001792]                       [django.server:124] [WARNING]- "GET /users/userinfo?page=1 HTTP/1.1" 401 58
+2020-01-15 17:21:43,194 [Thread-1:140665010779904]                       [django.server:124] [INFO]- "OPTIONS /userinfo/all?page=1 HTTP/1.1" 200 0
+2020-01-15 17:21:43,200 [Thread-3:140665010779904]                       [django.server:124] [INFO]- "OPTIONS /homedata/messages?username=admin HTTP/1.1" 200 0
+2020-01-15 17:21:43,226 [Thread-4:140665010779904]                       [django.request:93] [WARNING]- Not Found: /userinfo/all
+2020-01-15 17:21:43,228 [Thread-4:140665010779904]                       [django.server:124] [WARNING]- "GET /userinfo/all?page=1 HTTP/1.1" 404 2090
+2020-01-15 17:21:43,239 [Thread-5:140665002387200]                       [django.request:93] [WARNING]- Not Found: /homedata/messages
+2020-01-15 17:21:43,240 [Thread-5:140665002387200]                       [django.server:124] [WARNING]- "GET /homedata/messages?username=admin HTTP/1.1" 404 2113
+2020-01-15 17:21:43,622 [Thread-6:140665002387200]                       [django.server:124] [INFO]- "OPTIONS /userinfo/all?page=1 HTTP/1.1" 200 0
+2020-01-15 17:21:43,625 [Thread-7:140665010779904]                       [django.server:124] [INFO]- "OPTIONS /homedata/messages?username=admin HTTP/1.1" 200 0
+2020-01-15 17:21:43,943 [Thread-9:140665002387200]                       [django.request:93] [WARNING]- Not Found: /homedata/messages
+2020-01-15 17:21:43,951 [Thread-8:140665010779904]                       [django.request:93] [WARNING]- Not Found: /userinfo/all
+2020-01-15 17:21:43,952 [Thread-9:140665002387200]                       [django.server:124] [WARNING]- "GET /homedata/messages?username=admin HTTP/1.1" 404 2113
+2020-01-15 17:21:43,953 [Thread-8:140665010779904]                       [django.server:124] [WARNING]- "GET /userinfo/all?page=1 HTTP/1.1" 404 2090
+2020-01-15 17:24:43,885 [Thread-1:140536670058240]                       [django.server:124] [INFO]- "POST /users/api-token-auth HTTP/1.1" 200 204
+2020-01-15 17:25:03,368 [Thread-3:140536670058240]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth HTTP/1.1" 200 0
+2020-01-15 17:25:03,674 [Thread-4:140536670058240]                       [django.server:124] [INFO]- "POST /users/api-token-auth HTTP/1.1" 200 204
+2020-01-15 17:27:13,991 [Thread-5:140536670058240]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo?page=1 HTTP/1.1" 200 0
+2020-01-15 17:27:14,023 [Thread-6:140536670058240]                       [django.request:118] [ERROR]- Internal Server Error: /users/userinfo
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/decorators.py", line 53, in handler
+    return func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/env_django/mysite/libs/baseview.py", line 10, in dispatch
+    return super(BaseView, self).dispatch(*args, **kwargs)
+TypeError: dispatch() missing 1 required positional argument: 'request'
+2020-01-15 17:27:14,197 [Thread-6:140536670058240]                       [django.server:124] [ERROR]- "GET /users/userinfo?page=1 HTTP/1.1" 500 18468
+2020-01-15 17:30:50,007 [Thread-1:139968035800832]                       [django.server:124] [INFO]- "GET /users/userinfo?page=1 HTTP/1.1" 200 216
+2020-01-15 17:30:54,638 [Thread-3:139968035800832]                       [django.server:124] [INFO]- "GET /users/userinfo?page=1 HTTP/1.1" 200 216
+2020-01-15 17:31:08,602 [Thread-4:139968035800832]                       [django.server:124] [INFO]- "GET /users/userinfo?page=1 HTTP/1.1" 200 216
+2020-01-15 17:32:08,246 [Thread-1:140681716586240]                       [django.server:124] [INFO]- "GET /users/userinfo?page=1 HTTP/1.1" 200 100
+2020-01-15 17:32:23,076 [Thread-3:140681716586240]                       [django.server:124] [WARNING]- "GET /users/userinfo?page=1 HTTP/1.1" 401 58
+2020-01-15 17:32:35,890 [Thread-4:140681716586240]                       [django.server:124] [INFO]- "GET /users/userinfo?page=1 HTTP/1.1" 200 100
+2020-01-15 17:33:09,756 [Thread-5:140681716586240]                       [django.server:124] [WARNING]- "GET /users/userinfo?page=1 HTTP/1.1" 401 58
+2020-01-15 17:34:30,252 [Thread-6:140681716586240]                       [django.server:124] [WARNING]- "GET /users/userinfo?page=1 HTTP/1.1" 401 58
+2020-01-15 17:34:50,842 [Thread-7:140681716586240]                       [django.server:124] [WARNING]- "GET /users/userinfo?page=1 HTTP/1.1" 401 58
+2020-01-15 17:35:19,390 [Thread-8:140681716586240]                       [django.server:124] [INFO]- "GET /users/userinfo?page=1 HTTP/1.1" 200 100
+2020-01-15 17:35:46,846 [Thread-1:140205557122816]                       [django.server:124] [INFO]- "GET /users/userinfo?page=1 HTTP/1.1" 200 100
+2020-01-15 17:38:15,472 [Thread-1:140628205549312]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:38:19,687 [Thread-3:140628205549312]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-15 17:38:36,321 [Thread-4:140628205549312]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/?page=1 HTTP/1.1" 200 0
+2020-01-15 17:38:36,372 [Thread-5:140628205549312]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:39:32,810 [Thread-1:139958972131072]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:40:11,606 [Thread-1:140433196713728]                       [django.request:118] [ERROR]- Internal Server Error: /users/userinfo/
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/utils/decorators.py", line 62, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/decorators.py", line 53, in handler
+    return func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/utils/decorators.py", line 58, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "/root/env_django/mysite/libs/baseview.py", line 10, in dispatch
+    return super(BaseView, self).dispatch(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 89, in dispatch
+    return handler(request, *args, **kwargs)
+  File "/root/env_django/mysite/users/views.py", line 34, in get
+    print("ssss:%s" % args)
+TypeError: not enough arguments for format string
+2020-01-15 17:40:11,746 [Thread-1:140433196713728]                       [django.server:124] [ERROR]- "GET /users/userinfo/?page=1 HTTP/1.1" 500 18669
+2020-01-15 17:41:44,655 [Thread-1:140016507438848]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:43:59,901 [Thread-1:140361791604480]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:44:25,787 [Thread-3:140361791604480]                       [django.server:124] [INFO]- "OPTIONS /userinfo/ HTTP/1.1" 200 0
+2020-01-15 17:44:25,808 [Thread-4:140361791604480]                       [django.request:93] [WARNING]- Not Found: /userinfo/
+2020-01-15 17:44:25,810 [Thread-4:140361791604480]                       [django.server:124] [WARNING]- "POST /userinfo/ HTTP/1.1" 404 2075
+2020-01-15 17:45:27,612 [Thread-1:140075245971200]                       [django.request:93] [WARNING]- Not Found: /userinfo/
+2020-01-15 17:45:27,614 [Thread-1:140075245971200]                       [django.server:124] [WARNING]- "POST /userinfo/ HTTP/1.1" 404 2075
+2020-01-15 17:45:29,110 [Thread-3:140075245971200]                       [django.request:93] [WARNING]- Not Found: /userinfo/
+2020-01-15 17:45:29,111 [Thread-3:140075245971200]                       [django.server:124] [WARNING]- "POST /userinfo/ HTTP/1.1" 404 2075
+2020-01-15 17:45:29,293 [Thread-4:140075245971200]                       [django.request:93] [WARNING]- Not Found: /userinfo/
+2020-01-15 17:45:29,294 [Thread-4:140075245971200]                       [django.server:124] [WARNING]- "POST /userinfo/ HTTP/1.1" 404 2075
+2020-01-15 17:45:38,797 [Thread-5:140075245971200]                       [django.request:93] [WARNING]- Not Found: /userinfo/
+2020-01-15 17:45:38,798 [Thread-5:140075245971200]                       [django.server:124] [WARNING]- "POST /userinfo/ HTTP/1.1" 404 2075
+2020-01-15 17:46:01,503 [Thread-6:140075245971200]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:46:24,740 [Thread-7:140075245971200]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/ HTTP/1.1" 200 0
+2020-01-15 17:46:24,778 [Thread-8:140075245971200]                       [django.server:124] [INFO]- "POST /users/userinfo/ HTTP/1.1" 200 0
+2020-01-15 17:46:24,847 [Thread-9:140075245971200]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:53:36,457 [Thread-1:140708110350080]                       [django.server:124] [INFO]- "POST /users/userinfo/ HTTP/1.1" 200 30
+2020-01-15 17:53:36,515 [Thread-3:140708110350080]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:55:04,296 [Thread-1:140394669631232]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:55:36,503 [Thread-3:140394669631232]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:56:32,344 [Thread-4:140394669631232]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 17:57:18,606 [Thread-1:140003508344576]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 100
+2020-01-15 18:00:09,228 [Thread-1:140519637223168]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 193
+2020-01-15 18:01:33,212 [Thread-1:140009793558272]                       [django.server:124] [INFO]- "POST /users/userinfo/ HTTP/1.1" 200 25
+2020-01-15 18:01:33,315 [Thread-3:140009793558272]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-15 18:16:36,355 [Thread-1:140589441111808]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-15 18:17:03,600 [Thread-3:140589441111808]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-15 18:19:09,059 [Thread-4:140589441111808]                       [django.server:124] [INFO]- "OPTIONS /userinfo/test HTTP/1.1" 200 0
+2020-01-15 18:19:09,082 [Thread-5:140589441111808]                       [django.request:93] [WARNING]- Not Found: /userinfo/test
+2020-01-15 18:19:09,084 [Thread-5:140589441111808]                       [django.server:124] [WARNING]- "DELETE /userinfo/test HTTP/1.1" 404 2089
+2020-01-15 18:21:28,751 [Thread-1:139912854632192]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-15 18:21:33,001 [Thread-3:139912854632192]                       [django.request:93] [WARNING]- Not Found: /userinfo/test
+2020-01-15 18:21:33,004 [Thread-3:139912854632192]                       [django.server:124] [WARNING]- "DELETE /userinfo/test HTTP/1.1" 404 2089
+2020-01-15 18:21:54,701 [Thread-4:139912854632192]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-15 18:22:00,112 [Thread-5:139912854632192]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/test HTTP/1.1" 200 0
+2020-01-15 18:22:00,131 [Thread-6:139912854632192]                       [django.request:93] [WARNING]- Not Found: /users/userinfo/test
+2020-01-15 18:22:00,132 [Thread-6:139912854632192]                       [django.server:124] [WARNING]- "DELETE /users/userinfo/test HTTP/1.1" 404 2335
+2020-01-15 18:23:16,789 [Thread-1:140599019529984]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-15 18:23:21,260 [Thread-3:140599019529984]                       [django.server:124] [ERROR]- "DELETE /users/userinfo/test HTTP/1.1" 500 0
+2020-01-15 18:23:46,864 [Thread-1:140243594905344]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-15 18:23:51,571 [Thread-3:140243594905344]                       [django.server:124] [ERROR]- "DELETE /users/userinfo/test HTTP/1.1" 500 0
+2020-01-15 18:24:30,994 [Thread-1:139828605093632]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-15 18:24:35,521 [Thread-3:139828605093632]                       [django.server:124] [ERROR]- "DELETE /users/userinfo/test HTTP/1.1" 500 0
+2020-01-15 18:24:59,088 [Thread-1:140001784043264]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-15 18:25:04,265 [Thread-3:140001784043264]                       [django.server:124] [ERROR]- "DELETE /users/userinfo/test HTTP/1.1" 500 0
+2020-01-16 11:13:08,847 [Thread-1:140460506527488]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/?page=1 HTTP/1.1" 200 0
+2020-01-16 11:13:08,918 [Thread-3:140460506527488]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-16 11:20:01,190 [Thread-1:139654971102976]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/test HTTP/1.1" 200 0
+2020-01-16 11:20:01,262 [Thread-3:139654971102976]                       [django.server:124] [ERROR]- "DELETE /users/userinfo/test HTTP/1.1" 500 0
+2020-01-16 11:21:32,651 [Thread-1:140165293250304]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-16 11:21:36,774 [Thread-3:140165293250304]                       [django.request:118] [ERROR]- Internal Server Error: /users/userinfo/test
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: delete() missing 1 required positional argument: 'pk'
+2020-01-16 11:21:36,925 [Thread-3:140165293250304]                       [django.server:124] [ERROR]- "DELETE /users/userinfo/test HTTP/1.1" 500 17723
+2020-01-16 11:22:59,446 [Thread-1:140090063771392]                       [django.request:118] [ERROR]- Internal Server Error: /users/userinfo/
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'pk'
+2020-01-16 11:22:59,583 [Thread-1:140090063771392]                       [django.server:124] [ERROR]- "GET /users/userinfo/?page=1 HTTP/1.1" 500 17707
+2020-01-16 11:23:04,145 [Thread-3:140090063771392]                       [django.request:118] [ERROR]- Internal Server Error: /users/userinfo/
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'pk'
+2020-01-16 11:23:04,190 [Thread-3:140090063771392]                       [django.server:124] [ERROR]- "GET /users/userinfo/?page=1 HTTP/1.1" 500 17707
+2020-01-16 11:23:07,319 [Thread-4:140090063771392]                       [django.request:118] [ERROR]- Internal Server Error: /users/userinfo/
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: get() missing 1 required positional argument: 'pk'
+2020-01-16 11:23:07,364 [Thread-4:140090063771392]                       [django.server:124] [ERROR]- "GET /users/userinfo/?page=1 HTTP/1.1" 500 17707
+2020-01-16 11:23:37,939 [Thread-1:140326956680960]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-16 11:27:59,461 [Thread-1:140604189800192]                       [django.request:118] [ERROR]- Internal Server Error: /users/userinfo/test
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: delete() got an unexpected keyword argument 'username'
+2020-01-16 11:27:59,593 [Thread-1:140604189800192]                       [django.server:124] [ERROR]- "DELETE /users/userinfo/test HTTP/1.1" 500 17725
+2020-01-16 11:28:48,022 [Thread-1:140396736538368]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-16 11:28:52,408 [Thread-3:140396736538368]                       [django.request:118] [ERROR]- Internal Server Error: /users/userinfo/test
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/env_django/mysite/users/views.py", line 23, in delete
+    print(username)
+NameError: name 'pk' is not defined
+2020-01-16 11:28:52,599 [Thread-3:140396736538368]                       [django.server:124] [ERROR]- "DELETE /users/userinfo/test HTTP/1.1" 500 17752
+2020-01-16 11:30:38,013 [Thread-1:139813793605376]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-16 11:30:42,929 [Thread-3:139813793605376]                       [django.server:124] [INFO]- "DELETE /users/userinfo/test HTTP/1.1" 200 0
+2020-01-16 11:30:42,997 [Thread-4:139813793605376]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-16 11:31:25,339 [Thread-1:139692313794304]                       [django.request:118] [ERROR]- Internal Server Error: /users/userinfo/test
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/env_django/mysite/users/views.py", line 25, in delete
+    print(username)
+NameError: name 'username' is not defined
+2020-01-16 11:31:25,551 [Thread-1:139692313794304]                       [django.server:124] [ERROR]- "DELETE /users/userinfo/test HTTP/1.1" 500 17764
+2020-01-16 11:34:01,210 [Thread-1:140031433869056]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-16 11:34:06,086 [Thread-3:140031433869056]                       [django.server:124] [INFO]- "DELETE /users/userinfo/test HTTP/1.1" 200 0
+2020-01-16 11:34:06,154 [Thread-4:140031433869056]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-16 11:34:25,245 [Thread-1:140305796212480]                       [django.server:124] [INFO]- "DELETE /users/userinfo/test HTTP/1.1" 200 0
+2020-01-16 11:34:25,334 [Thread-3:140305796212480]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 271
+2020-01-16 11:37:02,987 [Thread-1:140584523556608]                       [django.server:124] [INFO]- "DELETE /users/userinfo/test HTTP/1.1" 200 24
+2020-01-16 11:37:03,073 [Thread-3:140584523556608]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 193
+2020-01-16 11:37:51,933 [Thread-4:140584523556608]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 193
+2020-01-16 11:37:52,041 [Thread-5:140584523556608]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 193
+2020-01-16 11:49:25,098 [Thread-1:139740963436288]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 193
+2020-01-16 11:49:25,146 [Thread-3:139740963436288]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 193
+2020-01-16 14:31:40,133 [Thread-1:139852024157952]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/?page=1 HTTP/1.1" 200 0
+2020-01-16 14:31:40,201 [Thread-3:139852024157952]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 193
+2020-01-16 14:31:40,254 [Thread-4:139852024157952]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 193
+2020-01-16 14:31:57,206 [Thread-5:139852024157952]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/changemail/ HTTP/1.1" 200 0
+2020-01-16 14:31:57,340 [Thread-6:139852024157952]                       [django.server:124] [INFO]- "PUT /users/userinfo/changemail/ HTTP/1.1" 200 31
+2020-01-16 14:31:57,420 [Thread-7:139852024157952]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 194
+2020-01-16 14:32:02,885 [Thread-8:139852024157952]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 194
+2020-01-16 14:35:01,239 [Thread-1:140336038565632]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 194
+2020-01-16 15:09:23,512 [Thread-1:140577052722944]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/changegroup/ HTTP/1.1" 200 0
+2020-01-16 15:09:23,660 [Thread-3:140577052722944]                       [django.server:124] [INFO]- "PUT /users/userinfo/changegroup/ HTTP/1.1" 200 35
+2020-01-16 15:09:23,740 [Thread-4:140577052722944]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 195
+2020-01-16 15:09:27,658 [Thread-5:140577052722944]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 195
+2020-01-16 15:19:26,439 [Thread-1:139931226588928]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 195
+2020-01-16 15:19:26,479 [Thread-3:139931226588928]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 195
+2020-01-16 15:19:38,236 [Thread-4:139931226588928]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/changepwd/ HTTP/1.1" 200 0
+2020-01-16 15:19:39,073 [Thread-5:139931226588928]                       [django.server:124] [INFO]- "PUT /users/userinfo/changepwd/ HTTP/1.1" 200 34
+2020-01-16 18:10:49,496 [Thread-1:139915264677632]                       [django.server:124] [INFO]- "OPTIONS /users/api-token-auth/ HTTP/1.1" 200 0
+2020-01-16 18:10:49,822 [Thread-3:139915264677632]                       [django.server:124] [INFO]- "POST /users/api-token-auth/ HTTP/1.1" 200 204
+2020-01-16 18:10:52,901 [Thread-4:139915264677632]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/?page=1 HTTP/1.1" 200 0
+2020-01-16 18:10:52,979 [Thread-5:139915264677632]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 195
+2020-01-16 18:10:57,199 [Thread-6:139915264677632]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 195
+2020-01-16 18:11:12,764 [Thread-7:139915264677632]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 195
+2020-01-16 18:14:27,094 [Thread-1:139959551592192]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/ HTTP/1.1" 200 0
+2020-01-16 18:14:27,577 [Thread-3:139959551592192]                       [django.server:124] [INFO]- "POST /users/userinfo/ HTTP/1.1" 200 25
+2020-01-16 18:14:27,648 [Thread-4:139959551592192]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 274
+2020-01-17 10:33:23,356 [Thread-1:139657125136128]                       [django.server:124] [INFO]- "OPTIONS /databaseinfo?page=1 HTTP/1.1" 200 0
+2020-01-17 10:33:23,433 [Thread-3:139657125136128]                       [django.request:93] [WARNING]- Not Found: /databaseinfo
+2020-01-17 10:33:23,436 [Thread-3:139657125136128]                       [django.server:124] [WARNING]- "GET /databaseinfo?page=1 HTTP/1.1" 404 2199
+2020-01-17 10:33:28,332 [Thread-4:139657125136128]                       [django.request:93] [WARNING]- Not Found: /databaseinfo
+2020-01-17 10:33:28,333 [Thread-4:139657125136128]                       [django.server:124] [WARNING]- "GET /databaseinfo?page=1 HTTP/1.1" 404 2199
+2020-01-17 10:33:41,245 [Thread-5:139657125136128]                       [django.request:93] [WARNING]- Not Found: /databaseinfo
+2020-01-17 10:33:41,246 [Thread-5:139657125136128]                       [django.server:124] [WARNING]- "GET /databaseinfo?page=1 HTTP/1.1" 404 2199
+2020-01-17 10:34:53,753 [Thread-6:139657125136128]                       [django.server:124] [INFO]- "OPTIONS /managedb/databaseinfo?page=1 HTTP/1.1" 200 0
+2020-01-17 10:34:53,783 [Thread-7:139657125136128]                       [django.request:93] [WARNING]- Not Found: /managedb/databaseinfo
+2020-01-17 10:34:53,784 [Thread-7:139657125136128]                       [django.server:124] [WARNING]- "GET /managedb/databaseinfo?page=1 HTTP/1.1" 404 2288
+2020-01-17 10:36:50,546 [Thread-8:139657125136128]                       [django.server:124] [INFO]- "OPTIONS /managedb/databaseinfo/?page=1 HTTP/1.1" 200 0
+2020-01-17 10:36:50,603 [Thread-9:139657125136128]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 10:37:58,553 [Thread-1:139624187832064]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 10:38:33,694 [Thread-1:140280965211904]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 10:38:52,967 [Thread-3:140280965211904]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/?page=1 HTTP/1.1" 200 0
+2020-01-17 10:38:53,022 [Thread-4:140280965211904]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 274
+2020-01-17 10:39:29,252 [Thread-1:140573201553152]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 274
+2020-01-17 10:39:31,382 [Thread-3:140573201553152]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 274
+2020-01-17 10:40:08,503 [Thread-1:140162601101056]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 10:41:05,517 [Thread-1:139654931203840]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 10:41:08,982 [Thread-3:139654931203840]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 10:42:03,551 [Thread-1:139869233870592]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 10:42:25,214 [Thread-1:139711283537664]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 10:42:46,878 [Thread-1:139724739135232]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 10:43:32,034 [Thread-1:140170613643008]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 10:48:58,405 [Thread-1:140259935540992]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 10:51:01,535 [Thread-3:140259935540992]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 10:51:21,939 [Thread-4:140259935540992]                       [django.server:124] [INFO]- "OPTIONS /managedb/databaseinfo/ HTTP/1.1" 200 0
+2020-01-17 10:51:21,967 [Thread-5:140259924698880]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 10:51:21,990 [Thread-6:140259924698880]                       [django.server:124] [ERROR]- "POST /managedb/databaseinfo/ HTTP/1.1" 500 0
+2020-01-17 10:55:34,733 [Thread-1:140710844008192]                       [django.server:124] [ERROR]- "POST /managedb/databaseinfo/ HTTP/1.1" 500 0
+2020-01-17 10:55:34,737 [Thread-3:140710835615488]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 11:00:01,271 [Thread-3:140320509179648]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 11:00:01,341 [Thread-1:140320517572352]                       [django.server:124] [INFO]- "POST /managedb/databaseinfo/ HTTP/1.1" 200 29
+2020-01-17 11:00:06,829 [Thread-4:140320517572352]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:00:11,472 [Thread-5:140320517572352]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 274
+2020-01-17 11:00:13,463 [Thread-6:140320517572352]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:00:52,239 [Thread-1:139633815975680]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:05:58,663 [Thread-1:140558551353088]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:06:48,156 [Thread-1:140507866605312]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:07:54,864 [Thread-1:140478279038720]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:08:34,998 [Thread-1:140153596299008]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:08:44,590 [Thread-3:140153596299008]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:09:18,741 [Thread-1:139952002348800]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:09:51,262 [Thread-1:140387132585728]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:12:45,023 [Thread-1:140505671702272]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:14:47,158 [Thread-1:140004781758208]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:15:23,136 [Thread-1:139654050113280]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:16:22,197 [Thread-1:140655677298432]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:18:05,529 [Thread-1:140551427659520]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:18:57,233 [Thread-1:140077271348992]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:19:54,364 [Thread-1:140133285111552]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:20:35,572 [Thread-3:140133285111552]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 274
+2020-01-17 11:21:09,496 [Thread-4:140133285111552]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:22:57,810 [Thread-1:140235446941440]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:26:28,333 [Thread-1:139836141340416]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 274
+2020-01-17 11:26:29,718 [Thread-3:139836141340416]                       [django.server:124] [ERROR]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 500 0
+2020-01-17 11:28:01,437 [Thread-1:140695367739136]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 274
+2020-01-17 11:30:29,026 [Thread-1:139773901031168]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 155
+2020-01-17 11:31:27,103 [Thread-1:140408732096256]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 155
+2020-01-17 11:38:10,404 [Thread-1:139638434502400]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 162
+2020-01-17 11:38:32,427 [Thread-1:140117146593024]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 142
+2020-01-17 11:38:47,084 [Thread-1:140664188581632]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 123
+2020-01-17 11:39:05,178 [Thread-1:139641636554496]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 123
+2020-01-17 11:42:04,395 [Thread-3:139641636554496]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 123
+2020-01-17 11:42:18,654 [Thread-4:139641636554496]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 123
+2020-01-17 11:42:33,575 [Thread-5:139641636554496]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 123
+2020-01-17 11:44:03,572 [Thread-6:139641636554496]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 123
+2020-01-17 11:44:38,175 [Thread-7:139641636554496]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 123
+2020-01-17 11:45:33,665 [Thread-8:139641636554496]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 123
+2020-01-17 11:46:07,329 [Thread-1:140273683252992]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 142
+2020-01-17 11:46:13,802 [Thread-3:140273683252992]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 142
+2020-01-17 11:46:16,332 [Thread-4:140273683252992]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 142
+2020-01-17 14:10:58,039 [Thread-1:140190951638784]                       [django.server:124] [INFO]- "OPTIONS /managedb/databaseinfo/?page=1 HTTP/1.1" 200 0
+2020-01-17 14:10:58,100 [Thread-3:140190951638784]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 142
+2020-01-17 14:12:44,278 [Thread-4:140190951638784]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 142
+2020-01-17 14:12:50,727 [Thread-5:140190951638784]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 142
+2020-01-17 14:13:50,969 [Thread-1:139784888530688]                       [django.server:124] [INFO]- "OPTIONS /managedb/databaseinfo/test/ HTTP/1.1" 200 0
+2020-01-17 14:13:51,012 [Thread-3:139784888530688]                       [django.request:93] [WARNING]- Not Found: /managedb/databaseinfo/test/
+2020-01-17 14:13:51,015 [Thread-3:139784888530688]                       [django.server:124] [WARNING]- "DELETE /managedb/databaseinfo/test/ HTTP/1.1" 404 2490
+2020-01-17 14:15:07,618 [Thread-1:140257255196416]                       [django.request:93] [WARNING]- Not Found: /managedb/databaseinfo/test
+2020-01-17 14:15:07,620 [Thread-1:140257255196416]                       [django.server:124] [WARNING]- "DELETE /managedb/databaseinfo/test HTTP/1.1" 404 2487
+2020-01-17 14:15:49,333 [Thread-1:140032705713920]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 142
+2020-01-17 14:15:54,279 [Thread-3:140032705713920]                       [django.request:93] [WARNING]- Not Found: /managedb/databaseinfo/test/
+2020-01-17 14:15:54,281 [Thread-3:140032705713920]                       [django.server:124] [WARNING]- "DELETE /managedb/databaseinfo/test/ HTTP/1.1" 404 2490
+2020-01-17 14:18:34,096 [Thread-1:139623693854464]                       [django.request:93] [WARNING]- Not Found: /managedb/databaseinfo/test
+2020-01-17 14:18:34,098 [Thread-1:139623693854464]                       [django.server:124] [WARNING]- "DELETE /managedb/databaseinfo/test HTTP/1.1" 404 2489
+2020-01-17 14:18:39,893 [Thread-3:139623693854464]                       [django.server:124] [INFO]- "DELETE /managedb/databaseinfo/test/ HTTP/1.1" 200 17
+2020-01-17 14:18:52,523 [Thread-4:139623693854464]                       [django.server:124] [INFO]- "OPTIONS /users/userinfo/?page=1 HTTP/1.1" 200 0
+2020-01-17 14:18:52,581 [Thread-5:139623693854464]                       [django.server:124] [INFO]- "GET /users/userinfo/?page=1 HTTP/1.1" 200 274
+2020-01-17 14:18:53,942 [Thread-6:139623693854464]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 14:20:38,080 [Thread-7:139623693854464]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 14:21:05,585 [Thread-1:140077367068416]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 14:21:23,958 [Thread-3:140077367068416]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 14:21:56,104 [Thread-5:140077355964160]                       [django.server:124] [INFO]- "OPTIONS /managedb/databaseinfo/ HTTP/1.1" 200 0
+2020-01-17 14:21:56,125 [Thread-4:140077367068416]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 37
+2020-01-17 14:21:56,241 [Thread-6:140077367068416]                       [django.server:124] [INFO]- "POST /managedb/databaseinfo/ HTTP/1.1" 200 29
+2020-01-17 14:22:00,288 [Thread-7:140077367068416]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 141
+2020-01-17 14:23:05,261 [Thread-8:140077367068416]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 141
+2020-01-17 14:23:56,506 [Thread-10:140077355964160]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 141
+2020-01-17 14:23:56,676 [Thread-9:140077367068416]                       [django.server:124] [INFO]- "POST /managedb/databaseinfo/ HTTP/1.1" 200 29
+2020-01-17 14:23:56,703 [Thread-11:140077355964160]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 247
+2020-01-17 14:24:05,217 [Thread-12:140077355964160]                       [django.server:124] [INFO]- "OPTIONS /managedb/databaseinfo/ffff/ HTTP/1.1" 200 0
+2020-01-17 14:24:05,327 [Thread-13:140077355964160]                       [django.server:124] [INFO]- "DELETE /managedb/databaseinfo/ffff/ HTTP/1.1" 200 17
+2020-01-17 14:24:05,429 [Thread-14:140077355964160]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 141
+2020-01-17 14:24:33,647 [Thread-16:140077367068416]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 141
+2020-01-17 14:24:33,753 [Thread-15:140077355964160]                       [django.server:124] [INFO]- "POST /managedb/databaseinfo/ HTTP/1.1" 200 29
+2020-01-17 14:24:38,109 [Thread-17:140077355964160]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 14:24:56,874 [Thread-18:140077355964160]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 14:25:08,022 [Thread-19:140077355964160]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 14:33:34,750 [Thread-1:140071860442880]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 14:34:42,614 [Thread-3:140071860442880]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 14:35:00,217 [Thread-4:140071860442880]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 0
+2020-01-17 14:41:18,283 [Thread-1:139848776791808]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 0
+2020-01-17 15:59:21,897 [Thread-1:140593539839744]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 14
+2020-01-17 15:59:31,957 [Thread-3:140593539839744]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 14
+2020-01-17 16:00:06,932 [Thread-1:139683704608512]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 14
+2020-01-17 16:00:29,588 [Thread-1:140377975097088]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 14
+2020-01-17 16:01:01,752 [Thread-3:140377975097088]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 14
+2020-01-17 16:05:04,760 [Thread-1:139981741184768]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 14
+2020-01-17 16:05:08,307 [Thread-3:139981741184768]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 14
+2020-01-17 16:05:08,833 [Thread-4:139981741184768]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 14
+2020-01-17 16:05:09,132 [Thread-5:139981741184768]                       [django.server:124] [INFO]- "PUT /managedb/databaseinfo/ HTTP/1.1" 200 14
+2020-01-17 16:10:07,615 [Thread-6:139981741184768]                       [django.request:118] [ERROR]- Internal Server Error: /managedb/databaseinfo/
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/env_django/mysite/managedb/views.py", line 91, in put
+    port = int(request.data.get('port'))
+ValueError: invalid literal for int() with base 10: 'sssss'
+2020-01-17 16:10:07,941 [Thread-6:139981741184768]                       [django.server:124] [ERROR]- "PUT /managedb/databaseinfo/ HTTP/1.1" 500 17931
+2020-01-17 16:10:13,835 [Thread-7:139981741184768]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 16:12:34,700 [Thread-8:139981741184768]                       [django.server:124] [INFO]- "OPTIONS /managedb/databaseinfo/?page=1 HTTP/1.1" 200 0
+2020-01-17 16:12:34,796 [Thread-9:139981741184768]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 16:15:23,759 [Thread-11:139981729556224]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 16:15:23,880 [Thread-10:139981741184768]                       [django.server:124] [INFO]- "POST /managedb/databaseinfo/ HTTP/1.1" 200 29
+2020-01-17 16:15:27,563 [Thread-12:139981741184768]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 355
+2020-01-17 16:15:37,557 [Thread-13:139981741184768]                       [django.server:124] [INFO]- "OPTIONS /managedb/databaseinfo/ssdf/ HTTP/1.1" 200 0
+2020-01-17 16:15:37,763 [Thread-14:139981741184768]                       [django.server:124] [INFO]- "DELETE /managedb/databaseinfo/ssdf/ HTTP/1.1" 200 17
+2020-01-17 16:15:37,838 [Thread-15:139981741184768]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 16:16:38,257 [Thread-16:139981741184768]                       [django.request:118] [ERROR]- Internal Server Error: /managedb/databaseinfo/
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/env_django/mysite/managedb/views.py", line 91, in put
+    port = int(request.data.get('port'))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'NoneType'
+2020-01-17 16:16:38,303 [Thread-16:139981741184768]                       [django.server:124] [ERROR]- "PUT /managedb/databaseinfo/ HTTP/1.1" 500 17994
+2020-01-17 16:16:43,144 [Thread-17:139981729556224]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 16:17:38,859 [Thread-18:139981729556224]                       [django.request:118] [ERROR]- Internal Server Error: /managedb/databaseinfo/
+Traceback (most recent call last):
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/exception.py", line 35, in inner
+    response = get_response(request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 128, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/root/env_django/lib/python3.6/site-packages/django/core/handlers/base.py", line 126, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/django/views/generic/base.py", line 69, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 494, in dispatch
+    response = self.handle_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 454, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/root/env_django/lib/python3.6/site-packages/rest_framework/views.py", line 491, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/root/env_django/mysite/managedb/views.py", line 91, in put
+    port = int(request.data.get('port'))
+ValueError: invalid literal for int() with base 10: ''
+2020-01-17 16:17:38,903 [Thread-18:139981729556224]                       [django.server:124] [ERROR]- "PUT /managedb/databaseinfo/ HTTP/1.1" 500 17921
+2020-01-17 16:17:42,883 [Thread-19:139981729556224]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 16:19:30,132 [Thread-20:139981729556224]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
+2020-01-17 16:25:26,340 [Thread-21:139981729556224]                       [django.server:124] [INFO]- "GET /managedb/databaseinfo/?page=1 HTTP/1.1" 200 246
