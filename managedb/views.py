@@ -2,7 +2,7 @@ from django.shortcuts import render
 
 # Create your views here.
 
-from .models import DatabaseList
+from .models import DatabaseList, SqlDictionary
 from users.models import Account
 from libs.baseview import SuperUserpermissions
 from libs.con_database import SQLgo
@@ -48,14 +48,10 @@ class DatabaseInfo(SuperUserpermissions):
         else:
             try:
                 pagenum = DatabaseList.objects.aggregate(alter_number=Count('id'))
-                print(pagenum)
                 start_page = int(page) * 10 - 10
                 end_page = int(page) * 10
                 info = DatabaseList.objects.all()[start_page:end_page]
-                print(info)
-
                 serializers = SqlInfoList(info, many=True)
-                print(serializers.data)
                 return Response({'page': pagenum, 'data': serializers.data})
             except Exception as e:
                 CUSTOM_ERROR.error(f'{e.__class__.__name__}: {e}')
@@ -64,7 +60,6 @@ class DatabaseInfo(SuperUserpermissions):
     def post(self, request, pk=None):
         try:
             data = json.loads(request.data.get('data'))
-            print(data)
         except KeyError as e:
             CUSTOM_ERROR.error(f'{e.__class__.__name__}: {e}')
             return HttpResponse(status=500)
@@ -89,7 +84,6 @@ class DatabaseInfo(SuperUserpermissions):
             user = request.data.get('user')
             password = request.data.get('password')
             port = int(request.data.get('port'))
-            print(ip_address, user, password, port)
         except KeyError as e:
             CUSTOM_ERROR.error(f'{e.__class__.__name__}: {e}')
             return HttpResponse(status=500)
@@ -100,6 +94,91 @@ class DatabaseInfo(SuperUserpermissions):
             except Exception as e:
                 CUSTOM_ERROR.error(f'{e.__class__.__name__}: {e}')
                 return Response('连接失败')
+
+
+class DatabaseNameList(SuperUserpermissions):
+    '''
+        put:
+            列出数据库名字
+    '''
+
+    def put(self, request, pk=None):
+        try:
+            id = request.data['id']
+        except KeyError as e:
+            CUSTOM_ERROR.error(f'{e.__class__.__name__}: {e}')
+            return HttpResponse(status=500)
+        else:
+            _connection = DatabaseList.objects.filter(id=id).first()
+            try:
+                with SQLgo(
+                        ip=_connection.ip_address,
+                        user=_connection.conn_user,
+                        password=_connection.conn_pwd,
+                        port=_connection.port
+                ) as f:
+                    res = f.execute('show databases')
+                    database = [c for i in res for c in i]
+                    return Response(database)
+            except Exception as e:
+                CUSTOM_ERROR.error(f'{e.__class__.__name__}: {e}')
+                return HttpResponse(status=500)
+
+
+class GenerationDic(SuperUserpermissions):
+    '''
+        put
+    '''
+
+    @staticmethod
+    def DicGenerate(id, basename):
+        '''
+        字典生成
+        :param id:
+        :param basename:
+        :return:
+        '''
+        print(id, basename)
+        _connection = DatabaseList.objects.filter(id=id).first()
+        with SQLgo(
+                ip=_connection.ip_address,
+                user=_connection.conn_user,
+                password=_connection.conn_pwd,
+                port=_connection.port,
+                db=basename
+        ) as f:
+
+            res = f.tablename()
+            for i in res:
+                EveryData = f.showtable(table_name=i)
+                for c in EveryData:
+                    SqlDictionary.objects.get_or_create(
+                        field=c['Field'],
+                        type=c['Type'],
+                        extra=c['Extra'],
+                        dbname=basename,
+                        tablename=i,
+                        tablecomment=c['TableComment'],
+                        name=_connection.conn_name
+                    )
+
+    def put(self, request, pk=None):
+        try:
+            id = request.data.get('id')
+            dbnames = json.loads(request.data.get('basename'))
+
+        except KeyError as e:
+            CUSTOM_ERROR.error(f'{e.__class__.__name__}: {e}')
+            return HttpResponse(status=500)
+
+        else:
+            try:
+                for dbname in dbnames:
+                    self.DicGenerate(id, dbname)
+                    return HttpResponse('ok')
+            except Exception as e:
+                CUSTOM_ERROR.error(f'{e.__class__.__name__}: {e}')
+                return HttpResponse(status=500)
 
 
 class DatabaseDetail(SuperUserpermissions):

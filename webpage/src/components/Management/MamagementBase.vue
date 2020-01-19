@@ -60,7 +60,7 @@
           <Form :model="dictionary" :label-width="80" ref="generation">
             <FormItem label="连接名:" prop="dic">
               <Select v-model="dictionary.name" placeholder="请选择数据库连接名" style="width: 60%" @on-change="BaseList">
-              <Option v-for="i in rowdata" :value="i.id" :key="i.connection_name">{{i.connection_name}}</Option>
+              <Option v-for="i in rowdata" :value="i.id" :key="i.conn_name">{{i.conn_name}}</Option>
             </Select>
             </FormItem>
             <FormItem label="数据库名称:">
@@ -419,7 +419,7 @@ export default {
             ])
           }
         })
-        axios.put(`${util.url}/adminsql/Generation`, {
+        axios.put(`${util.auth}/managedb/sqldictionary/`, {
             'id': this.tmp_id,
             'basename': JSON.stringify(this.dictionary.databases)
           })
@@ -442,7 +442,7 @@ export default {
         return
       }
       this.tmp_id = vl
-      axios.put(`${util.url}/workorder/basename`, {
+      axios.put(`${util.auth}/managedb/databaselist/`, {
           'id': vl
         })
         .then(res => {

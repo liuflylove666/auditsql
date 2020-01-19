@@ -14,3 +14,17 @@ class DatabaseList(models.Model):
 	conn_user = models.CharField(max_length=50)
 	conn_pwd = models.CharField(max_length=50)
 	# describe = models.CharField(max_length=100)
+
+class SqlDictionary(models.Model):
+	dbname = models.CharField(max_length=100)
+	tablename = models.CharField(max_length=100)
+	field = models.CharField(max_length=100)
+	type = models.CharField(max_length=100)
+	null = models.CharField(max_length=100)
+	default = models.CharField(max_length=100)
+	extra = models.CharField(max_length=100)
+	tablecomment = models.CharField(max_length=100)
+	name = models.CharField(max_length=100, null=True)
+
+	def __str__(self):
+		return self.tablename
